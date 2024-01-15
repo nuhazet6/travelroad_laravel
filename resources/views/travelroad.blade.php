@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>travelroad/</title>
+  </head>
+
+  <body>
+    <h1>My Travel Bucket List</h1>
+    <a href="/wished">Places I'd Like to Visit</a>
+    <a href="/visted">Places I've Already Been To</a>
+    <p>Powered By: Laravel</p>
+  </body>
+</html>
