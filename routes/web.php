@@ -26,5 +26,5 @@ Route::get('/wished', function () {
 Route::get('/visited', function () {
   $visited = DB::select('select * from places where visited = true');
 
-  return view('travelroad', ['visited' => $visited]);
+  return view('visited', ['visited' => $visited]);
 });
